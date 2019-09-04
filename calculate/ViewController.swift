@@ -31,21 +31,20 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         
         layout()
         //callAd()
-        
         }
     
  
     func layout() {
         
         nameText.frame = CGRect(x: ((UIScreen.main.bounds.size.width - namePriceWidth) / 2), y: nameTextYPosition, width: namePriceWidth, height: namePriceHeight)
-        nameText.backgroundColor = UIColor.red
+        nameText.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.6)
         priceText.frame = CGRect(x: ((UIScreen.main.bounds.size.width - namePriceWidth) / 2), y: nameTextYPosition + nameText.frame.height + 30, width: namePriceWidth, height:namePriceHeight)
-        priceText.backgroundColor = UIColor.blue
+        priceText.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)
         
         pcsText.frame = CGRect(x: ((UIScreen.main.bounds.size.width - namePriceWidth) / 2), y: nameTextYPosition + nameText.frame.height + 30 + 100, width: pcsQtyWidth, height: pcsQtyHeight)
-        pcsText.backgroundColor = UIColor.gray
+        pcsText.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.4)
         qtyText.frame = CGRect(x: ((UIScreen.main.bounds.size.width - namePriceWidth) / 2) + pcsText.frame.size.width + 90, y: nameTextYPosition + nameText.frame.height + 30 + 100, width: pcsQtyWidth, height: pcsQtyHeight)
-        qtyText.backgroundColor = UIColor.green
+        qtyText.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3)
         
         aveBtn.frame = CGRect(x: ((UIScreen.main.bounds.size.width - namePriceWidth) / 2) + 40, y: nameTextYPosition + nameText.frame.height + 30 + 90 + pcsQtyWidth, width: aveCalWidth, height: aveCalHeight)
         aveBtn.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.2)
