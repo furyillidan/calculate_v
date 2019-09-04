@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Average"; ObjectID = "9yK-Hb-dpn"; */
+"9yK-Hb-dpn.text" = "均價";
+
+/* Class = "UITextField"; text = "user's manual"; ObjectID = "BR1-oI-GyR"; */
+"BR1-oI-GyR.text" = "使用說明";
+
+/* Class = "UILabel"; text = "You can use this app to calculate  Ex: The price of a toilet paper or drink 1ml price to find the most cheap items"; ObjectID = "JDW-cf-g1N"; */
+"JDW-cf-g1N.text" = "這app可以幫助你在購買時,快速計算出1單位的價錢 例如：一包200g的洋芋片賣40 一包200g賣44塊 使用此app你可以在當下迅速算出1g的均價是多少,來幫助你購買到cp最高的產品 ";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "MxA-Z3-5nn"; */
+"MxA-Z3-5nn.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Calc!"; ObjectID = "Pge-bT-fqs"; */
+"Pge-bT-fqs.normalTitle" = "計算!";
+
+/* Class = "UITabBarItem"; title = "main"; ObjectID = "Svm-hL-vOu"; */
+"Svm-hL-vOu.title" = "主頁";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "VyI-xc-i9E"; */
+"VyI-xc-i9E.text" = "1";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Yhf-XZ-cJ3"; */
+"Yhf-XZ-cJ3.text" = "品名";
+
+/* Class = "UILabel"; text = "Qty"; ObjectID = "YnL-di-Ymc"; */
+"YnL-di-Ymc.text" = "數量";
+
+/* Class = "UILabel"; text = "Pcs"; ObjectID = "ibu-Rp-tzL"; */
+"ibu-Rp-tzL.text" = "個數";
+
+/* Class = "UITextField"; text = "0"; ObjectID = "j5O-1y-gR2"; */
+"j5O-1y-gR2.text" = "0";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "tVO-xx-kdy"; */
+"tVO-xx-kdy.text" = "價格";
