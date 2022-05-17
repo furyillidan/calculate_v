@@ -24,7 +24,7 @@ extension TabBarController : UITabBarControllerDelegate {
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         
         
-        guard let index = tabBar.items?.index(of: item) else {
+        guard let index = tabBar.items?.firstIndex(of: item) else {
             return
         }
         
