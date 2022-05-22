@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,26 +16,31 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="en2-3t-eia">
-                                <rect key="frame" x="-385" y="-242.5" width="1024" height="1024"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017 iNow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jah-Lz-ecv">
-                                <rect key="frame" x="97" y="524" width="125" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 2017    inow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDL-da-JHa">
+                                <rect key="frame" x="30" y="852" width="368" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aoX-Oa-jPT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cake" translatesAutoresizingMaskIntoConstraints="NO" id="w63-Ti-Fsn">
+                                <rect key="frame" x="20" y="44" width="388" height="808"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95815259220000004" green="0.73844641450000004" blue="0.25473350290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jah-Lz-ecv" secondAttribute="bottom" constant="20" id="MgB-Lm-HY2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jah-Lz-ecv" secondAttribute="trailing" constant="82" id="OUt-Et-V9A"/>
-                            <constraint firstItem="jah-Lz-ecv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="81" id="S3l-fc-J4J"/>
-                            <constraint firstItem="en2-3t-eia" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-33" id="n6l-ML-iWU"/>
-                            <constraint firstItem="en2-3t-eia" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-14.5" id="uoQ-cB-6hH"/>
+                            <constraint firstItem="yDL-da-JHa" firstAttribute="top" secondItem="w63-Ti-Fsn" secondAttribute="bottom" id="1Dh-0s-Ggi"/>
+                            <constraint firstItem="yDL-da-JHa" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="10" id="9m6-4Z-rqz"/>
+                            <constraint firstItem="w63-Ti-Fsn" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="FZU-jD-coW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w63-Ti-Fsn" secondAttribute="trailing" id="Nnm-q6-soj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yDL-da-JHa" secondAttribute="bottom" id="OdL-jT-gNR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yDL-da-JHa" secondAttribute="trailing" constant="10" id="WfY-UV-sja"/>
+                            <constraint firstItem="w63-Ti-Fsn" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="gZZ-LI-D4n"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -47,6 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchscreen.png" width="1024" height="1024"/>
+        <image name="Cake" width="1284" height="2778"/>
     </resources>
 </document>

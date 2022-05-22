@@ -32,6 +32,7 @@
 		B5740E201E929B3600D0143E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5740E161E929B3600D0143E /* StoreKit.framework */; };
 		B5740E211E929B3600D0143E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5740E171E929B3600D0143E /* SystemConfiguration.framework */; };
 		B599CC54282B4A65009E0BD5 /* AverageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599CC53282B4A65009E0BD5 /* AverageVC.swift */; };
+		B5CD928628376F630024D821 /* Cake.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD928528376F630024D821 /* Cake.png */; };
 		B5E235E01DE9FE44007D41DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E235DF1DE9FE44007D41DE /* AppDelegate.swift */; };
 		B5E235E21DE9FE44007D41DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E235E11DE9FE44007D41DE /* ViewController.swift */; };
 		B5E235E51DE9FE44007D41DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E235E31DE9FE44007D41DE /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 		B5740E161E929B3600D0143E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B5740E171E929B3600D0143E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B599CC53282B4A65009E0BD5 /* AverageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageVC.swift; sourceTree = "<group>"; };
+		B5CD928528376F630024D821 /* Cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cake.png; sourceTree = "<group>"; };
 		B5E235DC1DE9FE44007D41DE /* calculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E235DF1DE9FE44007D41DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E235E11DE9FE44007D41DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		B50146EE1F31796300F5BD06 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B5CD928528376F630024D821 /* Cake.png */,
 				B5E235E61DE9FE44007D41DE /* Assets.xcassets */,
 				B5E235E31DE9FE44007D41DE /* Main.storyboard */,
 				B5E235E81DE9FE44007D41DE /* LaunchScreen.storyboard */,
@@ -321,6 +324,7 @@
 				B5E235EA1DE9FE44007D41DE /* LaunchScreen.storyboard in Resources */,
 				B5E235E71DE9FE44007D41DE /* Assets.xcassets in Resources */,
 				B5E235E51DE9FE44007D41DE /* Main.storyboard in Resources */,
+				B5CD928628376F630024D821 /* Cake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -520,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -539,9 +543,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = calculate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inow.calculate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -559,9 +563,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = calculate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inow.calculate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

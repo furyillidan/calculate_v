@@ -528,7 +528,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="50"/>
                                                                 <color key="backgroundColor" red="0.94136208300000002" green="0.99650865789999998" blue="0.9686245322" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                             </textField>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;-- 輸入小費%數" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFw-eK-c4N">
                                                                 <rect key="frame" x="187.66666666666663" y="0.0" width="187.33333333333337" height="50"/>
@@ -661,7 +661,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="tRc-xq-f5i"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94309467079999998" green="0.74900215889138388" blue="0.35409111644811475" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -679,7 +679,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Zc1-Jp-CHn"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94266778230000003" green="0.74974685910000005" blue="0.35283535719999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -714,7 +714,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="v6R-TC-Q0K"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94700127840000003" green="0.81166642899999997" blue="0.52543205019999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -732,7 +732,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="gs7-9B-Myy"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94730812310000001" green="0.81301265628077291" blue="0.52453270183809841" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -767,7 +767,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="QbU-rA-gWU"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94319444890000004" green="0.79152745010000003" blue="0.55681681630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -785,7 +785,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Ngv-1r-eBq"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94363802669999997" green="0.79315538941183061" blue="0.55796410888124492" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -820,7 +820,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="68P-h9-eYR"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94328004121780396" green="0.79741093643522332" blue="0.67393432751245508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -838,7 +838,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="znj-eO-UR6"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94363802669999997" green="0.79802823069999995" blue="0.67448729279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -873,7 +873,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="aRe-Un-Daq"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94429886340000002" green="0.85168010000000005" blue="0.81175726650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -891,7 +891,7 @@
                                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="sI9-V0-d2V"/>
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                                             </textField>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.94363802669999997" green="0.85188456965350257" blue="0.81261267212750687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1096,17 +1096,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="101.33333333333333"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rbo-3b-ONt">
-                                                        <rect key="frame" x="100" y="30.000000000000004" width="175" height="41.333333333333343"/>
+                                                        <rect key="frame" x="15" y="5" width="345" height="91.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.94136208300000002" green="0.99650865789999998" blue="0.9686245322" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="rbo-3b-ONt" secondAttribute="bottom" constant="30" id="0me-Op-ADm"/>
-                                                    <constraint firstItem="rbo-3b-ONt" firstAttribute="top" secondItem="zw7-rc-4K6" secondAttribute="top" constant="30" id="A7u-Dc-toN"/>
-                                                    <constraint firstItem="rbo-3b-ONt" firstAttribute="leading" secondItem="zw7-rc-4K6" secondAttribute="leading" priority="950" constant="100" id="OwR-UY-g1M"/>
-                                                    <constraint firstAttribute="trailing" secondItem="rbo-3b-ONt" secondAttribute="trailing" priority="950" constant="100" id="Uzj-0q-BPp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="rbo-3b-ONt" secondAttribute="bottom" constant="5" id="0me-Op-ADm"/>
+                                                    <constraint firstItem="rbo-3b-ONt" firstAttribute="top" secondItem="zw7-rc-4K6" secondAttribute="top" constant="5" id="A7u-Dc-toN"/>
+                                                    <constraint firstItem="rbo-3b-ONt" firstAttribute="leading" secondItem="zw7-rc-4K6" secondAttribute="leading" priority="950" constant="15" id="OwR-UY-g1M"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rbo-3b-ONt" secondAttribute="trailing" priority="950" constant="15" id="Uzj-0q-BPp"/>
                                                     <constraint firstItem="rbo-3b-ONt" firstAttribute="centerY" secondItem="zw7-rc-4K6" secondAttribute="centerY" id="b4W-wP-8zP"/>
                                                     <constraint firstItem="rbo-3b-ONt" firstAttribute="centerX" secondItem="zw7-rc-4K6" secondAttribute="centerX" id="nuJ-kn-vVb"/>
                                                     <constraint firstItem="rbo-3b-ONt" firstAttribute="centerY" secondItem="zw7-rc-4K6" secondAttribute="centerY" id="vfK-9A-7c9"/>
@@ -1117,7 +1117,7 @@
                                                 <rect key="frame" x="0.0" y="101.33333333333337" width="375" height="101.33333333333331"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlT-kN-p83">
-                                                        <rect key="frame" x="100" y="30.000000000000004" width="175" height="41.333333333333343"/>
+                                                        <rect key="frame" x="15" y="5" width="345" height="91.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1128,10 +1128,10 @@
                                                     <constraint firstItem="OlT-kN-p83" firstAttribute="centerY" secondItem="nTB-qP-VeD" secondAttribute="centerY" id="69B-yK-HUP"/>
                                                     <constraint firstItem="OlT-kN-p83" firstAttribute="centerX" secondItem="nTB-qP-VeD" secondAttribute="centerX" id="MDE-Bf-ryv"/>
                                                     <constraint firstItem="OlT-kN-p83" firstAttribute="centerX" secondItem="nTB-qP-VeD" secondAttribute="centerX" id="PEn-3Z-mMy"/>
-                                                    <constraint firstAttribute="trailing" secondItem="OlT-kN-p83" secondAttribute="trailing" priority="950" constant="100" id="RBd-Qa-U0M"/>
-                                                    <constraint firstItem="OlT-kN-p83" firstAttribute="leading" secondItem="nTB-qP-VeD" secondAttribute="leading" priority="950" constant="100" id="WvJ-rZ-JlQ"/>
-                                                    <constraint firstAttribute="bottom" secondItem="OlT-kN-p83" secondAttribute="bottom" constant="30" id="Zed-hG-klN"/>
-                                                    <constraint firstItem="OlT-kN-p83" firstAttribute="top" secondItem="nTB-qP-VeD" secondAttribute="top" constant="30" id="ljs-Hs-vKU"/>
+                                                    <constraint firstAttribute="trailing" secondItem="OlT-kN-p83" secondAttribute="trailing" priority="950" constant="15" id="RBd-Qa-U0M"/>
+                                                    <constraint firstItem="OlT-kN-p83" firstAttribute="leading" secondItem="nTB-qP-VeD" secondAttribute="leading" priority="950" constant="15" id="WvJ-rZ-JlQ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="OlT-kN-p83" secondAttribute="bottom" constant="5" id="Zed-hG-klN"/>
+                                                    <constraint firstItem="OlT-kN-p83" firstAttribute="top" secondItem="nTB-qP-VeD" secondAttribute="top" constant="5" id="ljs-Hs-vKU"/>
                                                     <constraint firstItem="OlT-kN-p83" firstAttribute="centerY" secondItem="nTB-qP-VeD" secondAttribute="centerY" id="zXP-44-xyX"/>
                                                 </constraints>
                                             </view>
@@ -1248,7 +1248,7 @@
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="價格" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-PH-ibC">
                                                                 <rect key="frame" x="10" y="30" width="355" height="54"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.9032001688022806" green="0.81916439014466413" blue="0.61490539409052969" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
